@@ -1,0 +1,525 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    
+}
+
+html, body, #root {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    width: 1220px;
+}
+
+h1 {
+    font-size: 55px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 220px 0;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 600;
+    color: #565656;
+    margin-bottom: 25px;
+}
+
+p.title {
+    text-align: center;
+    margin-top: -220px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.6);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.title a {
+    text-decoration: none;
+    color: rgba(255,255,255,0.6);
+    text-transform: none;
+    margin-right: 15px;
+    font-weight: 400;
+}
+
+.bg-title {
+    background: url('./../images/red-banner.jpg') center no-repeat;
+    position: relative; 
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+}
+
+
+.title a:hover {
+    text-decoration: underline;
+    color: rgba(255,255,255,0.6);
+}
+
+p {
+    font-size: 18px;
+    color: #444444;
+    margin-bottom: 20px;
+}
+
+/*HEADER*/
+
+header {
+    padding: 40px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    padding: 0;
+    background: #fff;
+}
+
+header img {
+    max-height: 100%;
+    width: 180px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+header ul li {
+    display: inline-block;
+    padding: 40px 0;
+    position: relative;
+}
+
+header ul li a {
+    line-height: 60px;
+    padding: 0 20px;
+    color: #282828;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all .3s ease-in-out;
+}
+
+header li a:hover {
+    text-decoration: none;
+    color: #c83034;
+}
+
+/*HOME*/
+
+.bg-banner {
+    width: 100%;
+    background: url('./../images/banner-4.jpg') center no-repeat;
+    position: relative; 
+    height: 100vh;
+}
+
+.nossa-empresa {
+    padding: 50px;
+}
+
+.img-left {
+    background: url('./../images/banner-5.jpg') center no-repeat;
+    background-size: cover;
+}
+
+.img-right {
+    background: url('./../images/banner-7.jpg') center no-repeat;
+    background-size: cover;
+    margin: 0 50px 0 15px;
+}
+
+.text-group {
+    padding: 25px 0;
+}
+
+.text-group h2{
+    padding: 20px 0;
+}
+
+.button-default {
+    padding: 12px 20px;
+    background: #81be20;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    margin-top: 20px;
+}
+
+.button-default:hover {
+    background: #c83034;
+    transition: all .3s ease-in-out;
+}
+
+.nossos-produtos {
+    padding: 50px;
+}
+
+.text-red {
+    text-decoration: none;
+    color: #c83034;
+    transition: all .3s ease-in-out;
+    font-weight: 700;
+}
+
+.text-red:hover {
+    text-decoration: none;
+    color: #81be20;
+    font-weight: 700;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 50px;
+}
+
+.images div {
+    padding: 150px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 0 20px;
+}
+
+.images div:hover {
+    transform: scale(1.25);
+    transition: all .3s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.15);
+}
+
+.box-1 {
+    background: url('./../images/banner-11.jpg') center no-repeat;
+    background-size: cover;
+}
+
+.box-2 {
+    background: url('./../images/banner-12.jpg') center no-repeat;
+    background-size: cover;
+}
+
+.box-3 {
+    background: url('./../images/banner-15.jpg') center no-repeat;
+    background-size: cover;
+}
+
+.box-4 {
+    background: url('./../images/banner-19.jpg') center no-repeat;
+    background-size: cover;
+}
+
+
+/*FOOTER*/
+
+footer {
+    background: white;
+    padding: 50px;
+}
+
+.information img {
+    width: 20px;
+    padding-right: 5px;
+}
+
+.information img .up {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h3 {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #565656;
+    padding-bottom: 20px;
+}
+
+.information a {
+    text-decoration: none;
+    color: #565656;
+}
+
+.information a:hover {
+    color: #565656;
+    text-decoration: underline;
+}
+
+.information p {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.up {
+    margin-top: -20px;
+}
+
+.down {
+    margin-top: -20px;
+}
+
+footer ul li {
+    list-style: none;
+    border-bottom: 1px solid #636363;
+    padding: 10px 0;
+}
+
+footer ul li a {
+    color: #636363;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 10px;
+    
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+    color: #636363;
+}
+
+h4 {
+    color: #636363;
+}
+
+.after-footer {
+    background: #c83034;
+    padding: 30px;
+    background-size: cover;
+}
+
+.after-footer img {
+    border: 1px solid #fff;
+    background: #fff;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.red-footer {
+    text-align: right;
+}
+
+
+/*Empresa*/
+
+
+.bg-text {
+    padding: 70px 0;
+}
+
+.bg-text img {
+    width: 100%;
+    height: 100%;
+    
+}
+.bg-text p {
+    padding: 25px 0 0 0;
+    margin-bottom: 0;
+}
+
+/*PRODUTOS*/
+
+
+.produtos {
+    padding: 80px 0;
+}
+
+.produtos-holder {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 4fr;
+    gap: 40px;
+}
+
+.box {
+    height: 230px;
+    overflow: hidden;
+}
+
+.box img { 
+    width: 100%; 
+    height: 100%;
+
+}
+
+.box:hover img {
+    transform: scale(1.25);
+    transition: all .3s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.15);
+}
+
+/*CLIENTES*/
+
+
+
+.clientes {
+    padding: 80px 0;
+}
+
+.clientes-holder {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr;
+    gap: 40px;
+}
+
+.box-cliente {
+    height: 230px;
+    overflow: hidden;
+    border: 10px solid #f8f8f8;
+}
+
+.box-cliente img { 
+    width: 100%; 
+    height: 100%;
+
+}
+
+.box-cliente:hover img {
+    transform: scale(1.25);
+    transition: all .3s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.15);
+}
+
+/*CONTATO*/
+
+.bg-informacoes {
+    padding: 80px 0 60px 0;
+}
+
+.bg-informacoes a {
+    color: #c83034;
+}
+
+.bg-informacoes a:hover {
+    color: #c83034;
+    text-decoration: underline;
+}
+
+form input {
+    width: 100%;
+    border-radius: 0;
+    height: 55px;
+    padding: 15px;
+    background: none;
+    color: #000;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    border: none;
+    border: 1px solid #000;
+    background: transparent;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 0;
+    height: 195px;
+    padding: 15px;
+    background: none;
+    color: #000;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    border: none;
+    border: 1px solid #000;
+    background: transparent;
+}
+
+.button-contato {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background:#c83034;
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+/*RESPONSIVO*/
+
+@media (max-width: 1300px) {
+
+    .container {
+        width: auto;
+    }
+
+    .bg-title {
+        height: 22vh;
+    }
+
+    h1 {
+        padding: 40px 0;
+    }
+
+    .bg-text img {
+        width: 350px;
+        height: 350px;
+    }
+
+    /*HEADER*/
+
+    header {
+        display: none;
+    }
+
+    /*HOME*/
+
+    .bg-banner {
+        width: auto;
+        background: url(./../images/banner-4.jpg) center no-repeat;
+        height: 100vh;
+        background-size: cover;
+    }
+
+    .nossos-produtos {
+        padding: 25px;
+    }
+
+    .images {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 15px 0;
+        gap: 25px;
+    }
+
+    /*EMPRESA*/
+
+    p.title {
+        margin-top: -45px;
+    }
+
+    /*PRODUTOS*/
+
+    .produtos-holder {
+        grid-template-columns: 1fr;
+    }
+
+    /*CLIENTES*/
+
+    .clientes-holder {
+        grid-template-columns: 1fr;
+    }
+
+    /*FOOTER*/
+
+    footer {
+        padding: 20px 0;
+    }
+
+    h3 {
+    padding: 30px 0 20px 0;
+    }
+
+    .red-footer {
+        align-items: center !important;
+    }
+
+    .after-footer {
+        text-align: center !important;
+        height: 150px;
+    }
+
+}
